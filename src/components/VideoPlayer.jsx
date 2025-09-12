@@ -55,7 +55,7 @@ export function VideoPlayer() {
       <div className="relative aspect-video w-full">
         <iframe
           className="absolute top-0 left-0 w-full h-full"
-          src="https://www.youtube.com/embed/gNL9tLhjo_4?autoplay=1"
+          src="https://www.youtube.com/embed/2wShTiHGUss?autoplay=1"
           title="YouTube video player"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           allowFullScreen

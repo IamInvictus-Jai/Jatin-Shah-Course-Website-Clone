@@ -1,21 +1,18 @@
-
 export const courseFeatures = [
   {
     features: [
       {
-        id: "bi-framework",
-        title:
-          "Step By Step Framework to perform Business Intelligence using Power BI",
+        id: "clear-concepts",
+        title: "Crystal Clear Concepts Explained Step by Step",
         description:
-          "Learn the proven industry secrets of performing business intelligence on any & all sets of data.",
+          "Understand every identity and formula with zero confusion using our simplified teaching framework.",
         icon: "https://c.animaapp.com/meuysrg0LDjQPC/assets/icon-3.svg",
       },
       {
-        id: "ai-analysis",
-        title:
-          "Using Artificial Intelligence to perform cluster analysis & forecast data",
+        id: "fast-shortcuts",
+        title: "Lightning-Fast Problem Solving Shortcuts",
         description:
-          "Master Power BI's AI Visuals to create your own search assistant, predict data, perform cluster analysis & forecast future trends.",
+          "Learn powerful tricks to solve any trigonometry question in under 2 minutes and save valuable exam time.",
         icon: "https://c.animaapp.com/meuysrg0LDjQPC/assets/icon-4.svg",
       },
     ],
@@ -23,19 +20,17 @@ export const courseFeatures = [
   {
     features: [
       {
-        id: "interactive-dashboards",
-        title:
-          "Building Interactive Dashboards using 9+ Powerful Visuals in Power BI",
+        id: "exam-strategy",
+        title: "Score-Boosting Exam Strategies",
         description:
-          "Leverage the platform of Power BI to build amazing dashboards & get key insights & observations out of it.",
+          "Discover the exact approach toppers use to secure full marks in trigonometry sections of competitive and board exams.",
         icon: "https://c.animaapp.com/meuysrg0LDjQPC/assets/icon-5.svg",
       },
       {
-        id: "business-analysis",
-        title:
-          "Conduct Business Analysis on multiple businesses to scale revenue & improve profitability",
+        id: "confidence-boost",
+        title: "Build Unshakeable Confidence in Maths",
         description:
-          "Find out hidden metrics that will help build & grow any business by 7.2x.",
+          "Overcome fear of trigonometry and start attempting questions boldly without hesitation.",
         icon: "https://c.animaapp.com/meuysrg0LDjQPC/assets/icon-6.svg",
       },
     ],
@@ -43,11 +38,10 @@ export const courseFeatures = [
   {
     features: [
       {
-        id: "data-automation",
-        title:
-          "Combine data from over 30 sources (incl. Excel, SQL, etc) using the power of automation",
+        id: "doubt-solving",
+        title: "Instant Doubt-Solving & Personal Guidance",
         description:
-          "Get data from different files together & automate the process to reduce your workload by upto 1.5 hours daily.",
+          "Get your doubts cleared instantly and receive personalized support to strengthen weak areas.",
         icon: "https://c.animaapp.com/meuysrg0LDjQPC/assets/icon-7.svg",
       },
     ],

@@ -29,17 +29,17 @@ export function CountdownTimer() {
     >
       <div className="flex flex-wrap md:flex-nowrap max-w-[767px] md:max-w-[1140px] mx-auto p-2.5 md:p-5">
         {/* Left: Timer */}
-        <div className="w-1/2 flex flex-col items-center md:items-start text-white font-poppins mb-5 md:mb-0">
+        <div className="w-1/2 flex flex-col items-center md:items-start text-white font-poppins md:mb-0">
           <p className="text-[15px] md:text-base mb-2">Price increases in…</p>
           <div className="flex justify-center space-x-5">
             <div className="text-center">
-              <span className="text-yellow-400 text-[15px] md:text-[69px] font-roboto block leading-none">
+              <span className="text-yellow-400 text-[15px] md:text-[52px] font-roboto block leading-none">
                 {timeLeft.minutes}
               </span>
               <span className="text-[13px] md:text-[19px] block">Minutes</span>
             </div>
             <div className="text-center">
-              <span className="text-yellow-400 text-[15px] md:text-[69px] font-roboto block leading-none">
+              <span className="text-yellow-400 text-[15px] md:text-[52px] font-roboto block leading-none">
                 {timeLeft.seconds}
               </span>
               <span className="text-[13px] md:text-[19px] block">Seconds</span>
@@ -48,16 +48,16 @@ export function CountdownTimer() {
         </div>
 
         {/* Right: Price + CTA */}
-        <div className="w-1/2 flex flex-col items-center md:items-end text-white font-poppins space-y-3">
-          <div className="text-[21px] md:text-base text-center md:text-start">
+        <div className="w-1/2 flex flex-col items-center justify-center md:items-end text-white font-poppins space-y-1">
+          {/* <div className="text-[21px] md:text-base text-center md:text-start">
             <s className="mr-2">₹1999</s>
             <b>₹99</b>
-          </div>
+          </div> */}
 
           <a
             href="https://go.jatanshah.com/reg-pbi-s.html"
             className="text-white font-semibold bg-[linear-gradient(350deg,rgb(237,50,41)_0px,rgb(251,111,49)_100%)] 
-                       border border-orange-500 px-2 py-1 md:px-[90px] md:py-[30px] 
+                       border border-orange-500 px-2 py-1 md:px-[75px] md:py-[20px] 
                        rounded-[5px] font-montserrat text-base md:text-[25px] 
                        inline-block"
           >

@@ -1,26 +1,23 @@
 import React from "react";
 import { RegistrationButton } from "./RegistrationButton";
+import { practise_questions, mock_test, handwritten_notes } from "../assets/asset";
 
 const dashboardData = [
   {
-    imgSrc:
-      "https://c.animaapp.com/meuysrg0LDjQPC/assets/BS-Dashboard-1024x622.jpg",
-    imgAlt: "A Power BI dashboard showing business and sales metrics.",
-    title: "Business & Sales Dashboards",
+    imgSrc: practise_questions,
+    imgAlt: "Trignometry Practise Questions",
+    title: "Practise Questions",
   },
   {
-    imgSrc:
-      "https://c.animaapp.com/meuysrg0LDjQPC/assets/Financial-Power-BI-Dashboard-1024x622.jpg",
-    imgAlt: "A Power BI dashboard showing financial KPIs and charts.",
-    title: "Financial Dashboards",
+    imgSrc: mock_test,
+    imgAlt: "Mock Tests",
+    title: "Mock Tests",
   },
   {
-    imgSrc:
-      "https://c.animaapp.com/meuysrg0LDjQPC/assets/Managerial-Dashboards-1024x622.jpg",
-    imgAlt:
-      "A Power BI dashboard for management with key performance indicators.",
-    title: "Management Dashboards",
-  },
+    imgSrc: handwritten_notes,
+    imgAlt: "Handwritten Notes",
+    title: "Handwritten Notes",
+  }
 ];
 
 export function PowerBiFeatureSection() {
@@ -28,7 +25,7 @@ export function PowerBiFeatureSection() {
     <section>
       <div className="bg-[linear-gradient(100deg,rgb(28,19,48)_0px,rgb(23,44,53)_100%)] text-center py-8 md:py-12">
         <h2 className="text-white text-3xl md:text-5xl font-bold font-poppins px-4">
-          Perform Business Intelligence Using Power BI
+          Achieve Full Marks in Trigonometry with Ease
         </h2>
       </div>
 
@@ -54,7 +51,7 @@ export function PowerBiFeatureSection() {
           <h2 className="text-neutral-900 text-3xl md:text-4xl font-bold font-poppins text-center mt-8 md:mt-12">
             And Many More...
           </h2>
-          <div className="text-center mt-8">
+          {/* <div className="text-center mt-8">
             <div className="mb-4">
               <RegistrationButton />
             </div>
@@ -66,7 +63,7 @@ export function PowerBiFeatureSection() {
               to unlock bonuses worth{" "}
               <strong className="font-black text-orange-400">₹ 16,000</strong>
             </p>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>

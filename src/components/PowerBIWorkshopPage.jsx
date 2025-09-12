@@ -11,8 +11,11 @@ import { FAQSection } from "./FAQSection";
 import { CountdownTimer } from "./CountdownTimer";
 import { RegistrationButton } from "./RegistrationButton";
 import { RegistrationCta } from "./RegistrationCta";
+import { getWorkshopDates } from "../utils/dateUtils";
 
 export function PowerBIWorkshopPage() {
+  const { discountDateString, workshopDateString } = getWorkshopDates();
+
   return (
     <div className="text-zinc-800 text-base not-italic normal-nums font-normal accent-auto bg-white box-border caret-transparent block tracking-[normal] leading-6 list-outside list-disc text-start indent-[0px] normal-case visible border-separate font-apple_system">
       <div className="box-border caret-transparent">
@@ -20,34 +23,31 @@ export function PowerBIWorkshopPage() {
         <section className="bg-[linear-gradient(90deg,rgb(28,19,48)_0px,rgb(23,44,53)_100%)]">
           <div className="max-w-[767px] md:max-w-[1140px] mx-auto p-2.5 text-center">
             <h2 className="text-orange-600 text-lg md:text-[33px] font-semibold font-poppins leading-tight mt-2.5 md:mt-5 mb-5">
-              <u>MASTER BUSINESS INTELLIGENCE</u>
+              <u>MASTER TRIGONOMETRY</u>
             </h2>
 
             <h2 className="text-white text-lg md:text-[33px] font-semibold font-poppins leading-tight mt-[-15px] md:mt-0 mb-5">
-              USING{" "}
+              DON'T LET{" "}
               <span className="text-yellow-400">
-                <u>MICROSOFT POWER BI</u>
+                <u>TRIGONOMETRY DESTROY</u>
               </span>{" "}
-              TO BUILD
+              YOUR CHILD'S FUTURE!
             </h2>
 
             <h2 className="text-white text-lg md:text-[33px] font-semibold font-poppins leading-tight mt-[-15px] md:mt-0 mb-5">
-              MIND BLOWING{" "}
+              MASTER{" "}
               <span className="text-yellow-400">
-                <u>ARTIFICIALLY INTELLIGENT</u>
+                <u>TRIGONOMETRY</u>
               </span>{" "}
-              DASHBOARDS
+              IN JUST 2 DAYS
             </h2>
 
             <h2 className="text-white text-lg md:text-[33px] font-semibold font-poppins leading-tight mt-[-15px] md:mt-0 mb-5">
-              WITHOUT ANY{" "}
+              And Watch Your{" "}
               <span className="text-yellow-400">
-                <u>CODING OR PRIOR KNOWLEDGE</u>
-              </span>
-            </h2>
-
-            <h2 className="text-white text-[13px] md:text-[25px] font-semibold font-poppins leading-tight mt-[-5px] mx-[15px] md:mt-0 md:mx-0 mb-5">
-              (FASTEST WAY TO GET A HIGH PAYING JOB OR YOUR NEXT PROMOTION)
+                <u>Child's Confidence</u>
+              </span>{" "}
+              SOAR in Mathematics!
             </h2>
             <div className="md:mx-[150px] pb-2">
               <VideoPlayer />
@@ -73,13 +73,12 @@ export function PowerBIWorkshopPage() {
         <section className="bg-[linear-gradient(90deg,rgb(33,19,65)_0px,rgb(22,67,86)_100%)] md:-mt-2.5">
           <div className="max-w-[767px] md:max-w-[1140px] mx-auto p-2.5 text-center">
             <h2 className="text-orange-500 text-[17px] md:text-[25px] font-semibold font-poppins leading-snug">
-              Last date to get additional fee discount of Rs 1,900/- is 28
-              August i.e. today.
+              Last date to get additional fee discount of Rs 1,900/- is{" "}
+              {discountDateString} i.e. today.
             </h2>
 
             <h2 className="text-white text-[17px] md:text-[25px] font-medium font-poppins leading-snug mt-5">
-              Workshop is on 13th & 14th September (Sat & Sun) from 7 PM - 10
-              PM.
+              Workshop is on {workshopDateString} (Sat & Sun) from 7 PM - 10 PM.
             </h2>
 
             <h2 className="text-yellow-400 text-[17px] md:text-[25px] font-semibold font-poppins leading-snug mt-2">
@@ -100,7 +99,7 @@ export function PowerBIWorkshopPage() {
               If you checked ANY of the boxes above, then you're invited to join
               the{" "}
               <strong className="text-red-600 underline font-bold">
-                2 Day Power BI Domination Workshop
+                2 Day Trigonometry Domination Workshop
               </strong>
               .
             </p>
@@ -113,6 +112,9 @@ export function PowerBIWorkshopPage() {
         {/* Course Title */}
         <PowerBiFeatureSection />
 
+        {/* Registration CTA */}
+        <RegistrationCta />
+
         {/* What If Section */}
         <section className="relative bg-stone-50 pt-12 pb-16 md:pt-16 md:pb-20">
           <div className="max-w-5xl mx-auto px-4 text-center">
@@ -121,28 +123,27 @@ export function PowerBIWorkshopPage() {
             </h2>
             <p className="text-black text-lg md:text-3xl font-poppins leading-relaxed mt-6">
               You can{" "}
-              <span className="text-white bg-green-700 px-2 py-1 rounded">
-                Master Business Intelligence & Data Analysis
-              </span>
-              , Build Artificially Intelligent Dashboards & Learn The Skills
-              Needed For A High Paying Job
-              <strong className="font-bold"> Without</strong> Learning Coding Or
-              Spending Lakhs Of Rupees In Degree Programs
+              <span className="text-white bg-green-700 px-2 py-1 rounded leading-loose">
+                master every Trigonometry concept, solve any question in under 2
+                minutes, and score full marks in exams
+              </span>{" "}
+              &mdash; <strong className="font-bold">without</strong> spending
+              years struggling with formulas or fearing maths ever again.
             </p>
             <p className="text-black text-lg md:text-3xl font-poppins leading-relaxed mt-6">
-              Using The{" "}
+              Using our{" "}
               <b className="font-bold text-orange-600">
-                No. 1 Business Intelligence Tool - Power BI
+                step-by-step Trigonometry Mastery System
               </b>{" "}
-              That Has Generated
-              <b className="font-bold"> Lakhs Of Jobs</b> With An Average Salary
-              Of <b className="font-bold">12.6 LPA.</b>
+              that has helped thousands of students jump from confusion to
+              complete confidence &mdash; with many scoring{" "}
+              <b className="font-bold">100/100</b> in their board exams.
             </p>
             <p className="text-black text-2xl md:text-3xl font-bold font-poppins mt-8">
-              No Prior Business or Technical Knowledge Required!
+              No prior expertise or math genius required!
             </p>
             <h3 className="text-orange-600 text-3xl md:text-6xl font-semibold font-poppins mt-8">
-              YES, It will be that Easy!
+              YES, it’s really that simple.
             </h3>
             <p className="text-black text-xl md:text-3xl font-poppins mt-12">
               Here is what you are going to learn...

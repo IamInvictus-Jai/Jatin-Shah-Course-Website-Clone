@@ -29,9 +29,10 @@ export function TestimonialsSection() {
       <div className="relative bg-[linear-gradient(100deg,rgb(28,19,48)_0px,rgb(23,44,53)_100%)] pb-16 md:pb-24">
         <div className="max-w-screen-xl mx-auto px-4 py-12 md:py-16 text-center">
           <p className="text-white text-lg md:text-3xl font-poppins max-w-4xl mx-auto">
-            "Power BI Has Been The #1 BI Tool For 4 Years Now & Just By Learning
-            It, My Students Have Received High Paying Jobs (12 LPA+), Gotten
-            Promotions In Their Company & Leveraged The True Power Of Data!"
+            “Trigonometry has been the biggest game-changer for students aiming
+            for top scores — and by mastering it, my students have scored full
+            marks, topped their exams, and built the rock-solid confidence to
+            conquer any maths paper!”
           </p>
           <h2 className="text-lime-300 text-3xl md:text-6xl font-bold font-poppins mt-8">
             Don't Just Take My Word For It, Here's Some Proof For You To See...
@@ -77,16 +78,15 @@ export function TestimonialsSection() {
         <p className="text-black text-lg md:text-2xl leading-relaxed text-center max-w-4xl mx-auto mt-12 px-4">
           What I Will Teach You In This{" "}
           <b className="font-bold bg-yellow-400 px-2 py-1 rounded">
-            2-Day Power BI Workshop
+            2-Day Trigonometry Workshop
           </b>{" "}
           Will Not Just{" "}
           <b className="font-bold bg-yellow-400 px-2 py-1 rounded">
-            Help You Master Business Intelligence,
+            Help You Master Every Concept & Formula,
           </b>{" "}
-          But Also Help You Scale Any Business By Leveraging The Power Of Data.
-          It's all possible by creating your own{" "}
+          But Also Give You The Speed, Accuracy & Confidence To{" "}
           <b className="font-bold bg-yellow-400 px-2 py-1 rounded">
-            Artificially Intelligent Dashboards!!
+            Solve Any Question In Under 2 Minutes!!
           </b>
         </p>
       </div>

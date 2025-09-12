@@ -1,5 +1,6 @@
 import React from "react";
 import { instructorData } from "../data/instructorData";
+import { mentor } from "../assets/asset";
 
 export function InstructorSection() {
   return (
@@ -11,8 +12,8 @@ export function InstructorSection() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 items-start">
           <div>
             <img
-              src="https://c.animaapp.com/meuysrg0LDjQPC/assets/New-DP-2-1.jpg"
-              alt="Jatan Shah, Power BI Mentor"
+              src={mentor}
+              alt="Siddharth Singh, Trignometry Mentor"
               className="rounded-2xl w-full h-auto shadow-lg"
             />
           </div>

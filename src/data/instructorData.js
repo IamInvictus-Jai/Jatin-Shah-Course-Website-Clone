@@ -1,29 +1,40 @@
 export const instructorData = {
   credentials: [
     {
-      id: "mct",
-      text: "Microsoft Certified Trainer",
+      id: "air-637",
+      text: "AIR 637 in WBJEE",
       icon: "https://c.animaapp.com/meuysrg0LDjQPC/assets/icon-13.svg",
     },
     {
-      id: "students",
-      text: "116,294+ Students Mentored",
+      id: "be-chem",
+      text: "B.E. in Chemical Engineering",
       icon: "https://c.animaapp.com/meuysrg0LDjQPC/assets/icon-13.svg",
     },
     {
-      id: "cofounder",
-      text: "Co-Founder, Skill Nation",
+      id: "jadavpur",
+      text: "Jadavpur University (NIRF Rank 12)",
       icon: "https://c.animaapp.com/meuysrg0LDjQPC/assets/icon-13.svg",
     },
     {
-      id: "followers",
-      text: "1,12,493+ Followers across platforms",
+      id: "low-fees",
+      text: "Completed 4-year degree at just ₹12,000",
+      icon: "https://c.animaapp.com/meuysrg0LDjQPC/assets/icon-13.svg",
+    },
+    {
+      id: "brain-aspire",
+      text: "Founded Brain Aspire in 2019",
+      icon: "https://c.animaapp.com/meuysrg0LDjQPC/assets/icon-13.svg",
+    },
+    {
+      id: "students-guided",
+      text: "10,000+ Students Guided",
       icon: "https://c.animaapp.com/meuysrg0LDjQPC/assets/icon-13.svg",
     },
   ],
   bio: [
-    "Hi, I am Jatan Shah, a **Microsoft Certified Trainer** & a **Microsoft Certified Excel Expert**. I help working professionals master analytical skills with ease & consult for top corporate brands to make them more Data Analysis & Presentation Efficient.",
-    "At age 21, I founded my own training & consulting academy which has **trained over 95,000+ students just in the last 2 years.**",
-    "After working as a company valuation analyst helping multiple companies get funding with my valuation models, I found my passion in teaching & now I aim to provide top quality skill training at affordable rates to all working professionals.",
+    "Hi, I’m Siddharth Singh. I wasn’t always good at Math — in fact, till Class 8, it felt like my weakest subject. But once I discovered the power of strong basics, everything changed — I started loving Math and eventually cracked it.",
+    "I went on to secure **AIR 637 in WBJEE** and completed my **B.E. in Chemical Engineering from Jadavpur University, Kolkata** — one of India’s top-ranked institutions (NIRF Rank 12) and also one of the most affordable, with fees of just ₹12,000 for 4 years.",
+    "In 2019, while starting my college life, I started **Brain Aspire** with a single mission: to guide students towards their dreams. Since then, I’ve been conducting seminars in schools, working with thousands of learners, and helping students build clarity, confidence, and a strong learning strategy.",
+    "For me, teaching is like a parallel line — I may not walk your path, but I will always walk beside you, guiding you till infinity and beyond. To every student reading this: believe in yourself. If I could do it, so can you. And when you do, success will follow.",
   ],
 };

@@ -8,7 +8,7 @@ export function RegistrationButton() {
     >
       <span className="text-lg box-border caret-transparent gap-x-[5px] flex fill-white justify-center leading-[25.2px] gap-y-[5px] md:text-[27px] md:leading-[27px]">
         <span className="text-lg box-border caret-transparent block fill-white leading-[25.2px] md:text-[27px] md:leading-[27px]">
-          Become A Certified Power BI Expert At Just Rs 99/- Now!
+          Become A Certified Trigonometry Expert At Just Rs 99/- Now!
           <br className="text-lg box-border caret-transparent fill-white leading-[25.2px] md:text-[27px] md:leading-[27px]" />
           <span className="text-[13px] box-border caret-transparent fill-white leading-[25.2px] md:leading-[27px]">
             (Offer Valid Only For Today)

@@ -1,50 +1,26 @@
 export const faqData = [
   {
-    id: "when-start",
-    question: "When does the workshop start?",
-    answer:
-      "The workshop will be for 2 days: Saturday 7 PM – 10 PM (13th Sept) & Sunday 11 AM – 2 PM (14th Sept)",
-  },
-  {
-    id: "live-recorded",
-    question: "Is the workshop live or pre-recorded?",
-    answer:
-      "It is a completely LIVE 2 Day workshop with a total duration of 6 hours.",
-  },
-  {
-    id: "timings",
-    question: "Timings of the workshop?",
-    answer:
-      '<ul class="box-border caret-transparent leading-[27.2px] bg-[position:0px_0px] md:leading-[20.8px]"><li class="box-border caret-transparent leading-[27.2px] text-left bg-[position:0px_0px] md:leading-[20.8px]">Day 1 – Saturday 7 PM – 10 PM</li><li class="box-border caret-transparent leading-[27.2px] text-left bg-[position:0px_0px] md:leading-[20.8px]">Day 2 – Sunday 11 AM – 2 PM</li></ul><p class="box-border caret-transparent leading-[27.2px] mb-[14.4px] md:leading-[20.8px]">We have kept the timings to be post office hours so you can attend the workshop easily.</p>',
-  },
-  {
     id: "recordings",
-    question: "Will I get recordings if I miss out on a live session?",
+    question: "Will my child get recordings if they miss the live class?",
     answer:
-      "You will receive recordings of Day 1 (Saturday) session. Please note, there would be no recording of the Day 2 (Sunday) session. Moreover, attending live is just 100x better than watching the recording as you can clear all doubts instantly.",
+      "YES! Every student gets LIFETIME access to recordings. Your child can watch anytime, anywhere.",
   },
   {
-    id: "certified",
-    question: "Is it a certified workshop?",
+    id: "weak-students",
+    question: "Is this suitable for weak students in math?",
     answer:
-      "Yes! It is a Microsoft Certified Trainer & Skill Nation Certified Workshop. Mr. Jatan Shah, MCT will personally mentor & certify you.",
+      'ABSOLUTELY! We start from basics and build up. Even students who "hate" math fall in love with trigonometry after this course.',
   },
   {
-    id: "device-requirement",
-    question: "Is there a specific device requirement?",
+    id: "improvement",
+    question: "What if my child doesn't improve?",
     answer:
-      "You will require a Windows Laptop/PC to attend the workshop. Power BI isn't available for Mac as of now.",
+      "Impossible! 95% of our students see dramatic improvement. But if you're not satisfied, we offer a 100% money-back guarantee.",
   },
   {
-    id: "prerequisites",
-    question: "Are there any pre-requisites to attend this workshop?",
+    id: "difference",
+    question: "How is this different from other courses?",
     answer:
-      "You just need an interest in the world of data to learn. No prior knowledge about any software is required.",
-  },
-  {
-    id: "payment-issue",
-    question: "I made the payment but didn't receive any update",
-    answer:
-      "Please email us at support@jatanshah.in & our support team will get back to you as soon as possible.",
+      'We focus on UNDERSTANDING, not memorization. Your child will learn the "WHY" behind every formula, making it impossible to forget.',
   },
 ];
