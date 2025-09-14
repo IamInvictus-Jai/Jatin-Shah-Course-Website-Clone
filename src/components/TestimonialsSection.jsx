@@ -1,4 +1,4 @@
-import React from "react";
+import { review_1, review_2, review_3, review_4 } from "../assets/asset";
 
 function StarRating({ rating = 4.8, maxRating = 5 }) {
   const percentage = (rating / maxRating) * 100;
@@ -17,10 +17,10 @@ function StarRating({ rating = 4.8, maxRating = 5 }) {
 }
 
 const testimonials = [
-  "https://c.animaapp.com/meuysrg0LDjQPC/assets/Gurpal-Singh.png",
-  "https://c.animaapp.com/meuysrg0LDjQPC/assets/Manoj-Sharma.png",
-  "https://c.animaapp.com/meuysrg0LDjQPC/assets/Sushil-Kumar.png",
-  "https://c.animaapp.com/meuysrg0LDjQPC/assets/Naomi-Dsouza.png",
+  review_1,
+  review_2,
+  review_3,
+  review_4,
 ];
 
 export function TestimonialsSection() {
