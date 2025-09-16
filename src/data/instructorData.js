@@ -27,7 +27,7 @@ export const instructorData = {
     },
     {
       id: "students-guided",
-      text: "10,000+ Students Guided",
+      text: "1,000+ Students Guided",
       icon: "https://c.animaapp.com/meuysrg0LDjQPC/assets/icon-13.svg",
     },
   ],

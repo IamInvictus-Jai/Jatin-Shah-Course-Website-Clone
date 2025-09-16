@@ -18,7 +18,7 @@ export function RegistrationCta() {
                 {discountDateString} {currentYear}
                 </strong>{" "}
                 to unlock bonuses worth{" "}
-                <strong className="font-black text-orange-400">₹ 16,000</strong>
+                <strong className="font-black text-orange-400">₹ 1,999</strong>
             </p>
             </div>
         </section>

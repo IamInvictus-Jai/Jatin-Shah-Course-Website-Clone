@@ -15,7 +15,7 @@ export function BonusSection() {
             })}
           </h2>
           <p className="text-yellow-400 text-lg md:text-2xl font-bold font-poppins mt-2">
-            To Unlock All Bonuses worth Rs 16,000
+            To Unlock All Bonuses worth Rs 1,999
           </p>
         </div>
       </div>

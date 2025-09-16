@@ -12,6 +12,7 @@ import { CountdownTimer } from "./CountdownTimer";
 import { RegistrationButton } from "./RegistrationButton";
 import { RegistrationCta } from "./RegistrationCta";
 import { getWorkshopDates } from "../utils/dateUtils";
+import { certificate } from "../assets/asset";
 
 export function PowerBIWorkshopPage() {
   const { discountDateString, workshopDateString } = getWorkshopDates();
@@ -167,11 +168,52 @@ export function PowerBIWorkshopPage() {
         {/* Testimonials Section */}
         <TestimonialsSection />
 
-        {/* Instructor Section */}
-        <InstructorSection />
+        {/* Registration CTA */}
+        <RegistrationCta />
 
         {/* Bonus Section */}
         <BonusSection />
+
+        {/* Registration CTA */}
+        <RegistrationCta />
+
+        {/* Certification Section */}
+        <div className="bg-[linear-gradient(100deg,rgb(28,19,48)_0px,rgb(23,44,53)_100%)] text-center text-white py-8 mb-5 md:py-12">
+          <div className="max-w-screen-xl mx-auto px-4">
+            <h2 className="text-3xl md:text-5xl font-bold font-poppins">
+              Become a Certified Trigonometry Expert
+            </h2>
+            <p className="text-base md:text-2xl mt-4 max-w-3xl mx-auto">
+              Yes! Upon completing the workshop, you will receive a{" "}
+              <strong className="font-bold text-amber-500">
+                Certificate of Mastery in Trigonometry
+              </strong>{" "}
+              from Siddharth Singh & Brain Aspire, validating your skills and
+              adding credibility to your academic achievements.
+            </p>
+            <img
+              src={certificate}
+              alt="Certificate of Mastery in Trigonometry"
+              className="mt-8 rounded-lg shadow-lg max-w-2xl w-full mx-auto"
+            />
+            <p className="text-lg md:text-4xl mt-8 max-w-4xl mx-auto">
+              Believe Me When I Say This{" "}
+              <strong className="font-bold">
+                "You <span className="text-lime-300 underline">DO NOT</span>{" "}
+                Need To Be A Math Genius Or Have Prior Advanced Knowledge To
+                Master Class 10 Trigonometry. Thousands Of Students Have
+                Confidently Solved Even The Toughest Questions After Attending
+                This Workshop!".
+              </strong>
+            </p>
+          </div>
+        </div>
+
+        {/* Registration CTA */}
+        <RegistrationCta />
+
+        {/* Instructor Section */}
+        <InstructorSection />
 
         {/* Registration CTA */}
         <RegistrationCta />

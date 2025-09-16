@@ -26,7 +26,7 @@ const testimonials = [
 export function TestimonialsSection() {
   return (
     <section>
-      <div className="relative bg-[linear-gradient(100deg,rgb(28,19,48)_0px,rgb(23,44,53)_100%)] pb-16 md:pb-24">
+      <div className="relative bg-[linear-gradient(100deg,rgb(28,19,48)_0px,rgb(23,44,53)_100%)] pb-16 md:pb-10">
         <div className="max-w-screen-xl mx-auto px-4 py-12 md:py-16 text-center">
           <p className="text-white text-lg md:text-3xl font-poppins max-w-4xl mx-auto">
             “Trigonometry has been the biggest game-changer for students aiming
@@ -72,7 +72,7 @@ export function TestimonialsSection() {
             4.8 Out of 5
           </div>
           <div className="text-gray-600 text-base font-poppins">
-            (3,200+ Verified Reviews)
+            (1,000+ Verified Reviews)
           </div>
         </div>
         <p className="text-black text-lg md:text-2xl leading-relaxed text-center max-w-4xl mx-auto mt-12 px-4">
